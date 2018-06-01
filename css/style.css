@@ -1,0 +1,28 @@
+html {
+    font-family: serif;
+}
+/* Estilos Header */
+/* Fin estilos Header */
+
+/* Estilos Main */
+main h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+
+main #formMedicamentos {
+
+}
+/* Fin estilos Main */
+
+
+/* Clases generales */
+.flow_root{
+    display: flow-root;
+}
+.float_left{
+    float: left;
+}
+/* Fin Clases Generales */

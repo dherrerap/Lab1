@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="uft-8">
+    <title>
+        Registro Medicamentos
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h1> Registro de Medicamentos </h1>
+        <div class="flow_root">
+            <form id="formMedicamentos">
+                <input type="text" id="txtCodigoMedicamento" placeholder="Codigo de medicamento" required>
+                <input type="text" id="txtNombreMedicamento" placeholder="Nombre de medicamento" required>
+
+                <form>
+                    <input type="radio" name="tipoSuministracion" value="oral" required>Oral<br>
+                    <input type="radio" name="tipoSuministracion" value="intravenoso" required>Intravenoso<br>
+                </form>
+
+                <input type="text" id="txtCosto" placeholder="Costo del medicamento" required>
+
+                <input list="browsers" required>
+            
+                <datalist id="browsers">
+                    <option value="Internet Explorer">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+                
+                <button id="btnRegMedicamento">Registrar</button>
+            </form>
+        </div>
+
+        <a href="index.html">Inicio</a>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="js/controlador.js"></script>
+</body>
+</html>
